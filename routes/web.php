@@ -5,7 +5,7 @@ use App\Http\Controllers\Admin\DashboardController;
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Route::prefix('admin')->group(function () {
