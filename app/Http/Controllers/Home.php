@@ -44,4 +44,12 @@ class Home extends Controller
     {
         return view('shop');
     }
+    public function loginview()
+    {
+        return view('login');
+    }
+    public function registerview()
+    {
+        return view('register');
+    }
 }

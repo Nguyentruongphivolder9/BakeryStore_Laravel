@@ -21,3 +21,5 @@ Route::get('/cart',[Home::class, 'cart'])->name('cart');
 Route::get('/checkout',[Home::class, 'checkout'])->name('checkout');
 Route::get('/thankyou',[Home::class, 'thankyou'])->name('thankyou');
 Route::get('/shop',[Home::class, 'shop'])->name('shop');
+Route::get('/login',[Home::class, 'loginview'])->name('login');
+Route::get('/register',[Home::class, 'registerview'])->name('register');
