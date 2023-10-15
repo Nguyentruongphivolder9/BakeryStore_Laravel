@@ -20,17 +20,17 @@ class Home extends Controller
     {
         return view('service');
     }
-    public function blog()
+    public function team()
     {
-        return view('blog');
+        return view('team');
     }
     public function contact()
     {
         return view('contact');
     }
-    public function cart()
+    public function testimonial()
     {
-        return view('cart');
+        return view('testimonial');
     }
     public function checkout()
     {
