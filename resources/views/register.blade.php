@@ -37,7 +37,7 @@
                 </div>
                 <div class="forget-pass">
                     I already have an account ?
-                  <a href="#">Login</a>
+                  <a href="{{ route('login') }}">Login</a>
                 </div>
     
                 <button type="submit">LOG-IN</button>

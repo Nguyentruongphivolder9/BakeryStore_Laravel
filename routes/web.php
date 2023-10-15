@@ -23,3 +23,4 @@ Route::get('/thankyou',[Home::class, 'thankyou'])->name('thankyou');
 Route::get('/shop',[Home::class, 'shop'])->name('shop');
 Route::get('/login',[Home::class, 'loginview'])->name('login');
 Route::get('/register',[Home::class, 'registerview'])->name('register');
+Route::get('/forgotpass',[Home::class, 'forgotpass'])->name('forgotpass');

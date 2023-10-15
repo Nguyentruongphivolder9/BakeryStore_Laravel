@@ -35,8 +35,8 @@
                   <span>Remember me</span>
                 </div>
                 <div class="forget-pass-login">
-                  <a href="#">Forgot Password</a> ||
-                  <a href=""> Register Now</a>
+                  <a href="{{ route('forgotpass') }}">Forgot Password</a> ||
+                  <a href="{{ route('register') }}"> Register Now</a>
                 </div>
     
                 <button type="submit">LOG-IN</button>

@@ -52,4 +52,8 @@ class Home extends Controller
     {
         return view('register');
     }
+    public function forgotpass()
+    {
+        return view('forgotpass');
+    }
 }
