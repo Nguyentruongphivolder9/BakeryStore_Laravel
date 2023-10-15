@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="{{asset('assets')}}/css/user/login-register.css" rel="stylesheet">
+    <link href="{{asset('assets')}}/css/css/login-register.css" rel="stylesheet">
     <title>Forgot Password Page</title>
 </head>
 <body>
