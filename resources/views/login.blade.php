@@ -11,8 +11,7 @@
 <body>
     <div class="parent clearfix">
         <div class="bg-illustration">
-          <img src="/" alt="logo">
-    
+            <h1 class="text-primary m-3">Baker</h1>
           <div class="burger-btn">
             <span></span>
             <span></span>

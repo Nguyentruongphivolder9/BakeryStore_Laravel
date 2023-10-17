@@ -8,9 +8,8 @@
           <h1 class="display-4 text-white animated slideInDown mb-3">Contact Us</h1>
           <nav aria-label="breadcrumb animated slideInDown">
               <ol class="breadcrumb justify-content-center mb-0">
-                  <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                  <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                  <li class="breadcrumb-item text-primary active" aria-current="page">Contact</li>
+                  <li class="breadcrumb-item"><a class="text-white" href="{{ route('home') }}" >Home</a></li>
+                  <li class="breadcrumb-item text-primary active" aria-current="page" href="{{ route('contact') }}" > Contact</li>
               </ol>
           </nav>
       </div>
@@ -25,7 +24,6 @@
             </div>
             <div class="row g-0 justify-content-center">
                 <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="text-center mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
                     <form>
                         <div class="row g-3">
                             <div class="col-md-6">

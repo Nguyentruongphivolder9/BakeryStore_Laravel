@@ -65,15 +65,13 @@
     -webkit-animation: bgslide 2.3s forwards;
             animation: bgslide 2.3s forwards;
   }
-  .bg-illustration img {
-    width: 248px;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-    height: auto;
-    margin: 19px 0 0 25px;
+
+  .bg-illustration h1{
+    color: #EAA636;
+    padding: 35px 25px;
+    font-size : 40px;
   }
+
   
   @-webkit-keyframes bgslide {
     from {
@@ -203,7 +201,7 @@
   .login .container .forget-pass {
     position: absolute;
     right: 0;
-    margin-top: 383px;
+    margin-top: 483px;
   }
   .login .container .forget-pass-login a {
     font-size: 16px;

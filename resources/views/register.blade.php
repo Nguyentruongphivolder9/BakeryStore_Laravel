@@ -11,8 +11,7 @@
 <body>
     <div class="parent clearfix">
         <div class="bg-illustration">
-          <img src="{{asset('assets')}}/css/images/background/logo.png" alt="logo">
-    
+          <h1 class="text-primary m-3">Baker</h1>
           <div class="burger-btn">
             <span></span>
             <span></span>
@@ -26,7 +25,7 @@
             <h1 class="h1" >Register Form </h1>
             <div class="login-form">
               <form action="">
-                {{-- <input type="text" placeholder="Username" > --}}
+                <input type="text" placeholder="Username" >
                 <input type="email" placeholder="E-mail Address">
                 <input type="text" placeholder="Phone">
                 <input type="password" placeholder="Password">
